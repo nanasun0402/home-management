@@ -1,0 +1,44 @@
+{
+    "button": [
+        {
+            "name": "血压测量",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "我的数据",
+                    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxedbf2255b424fd5e&redirect_uri=http://caring.healthy-link.cn/caring_wxrs/view?name=bloodpressure_info&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+                },
+                {	
+                    "type": "view",
+                    "name": "我的设备",
+                    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxedbf2255b424fd5e&redirect_uri=http://caring.healthy-link.cn/caring_wxrs/view?name=bloodpressure_device&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+                },
+                {
+                    "type": "view",
+                    "name": "手动录入",
+                    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxedbf2255b424fd5e&redirect_uri=http://caring.healthy-link.cn/caring_wxrs/view?name=bloodpressure_input_list&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+                }
+            ]
+        },
+        {
+            "name": "我的药箱",
+            "sub_button": [
+                {	
+                    "type": "view",
+                    "name": "我的药箱",
+                    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxedbf2255b424fd5e&redirect_uri=http://caring.healthy-link.cn/caring_wxrs/view?name=medicinebox&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+                },
+                {
+                    "type": "view",
+                    "name": "服药日历",
+                    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxedbf2255b424fd5e&redirect_uri=http://caring.healthy-link.cn/caring_wxrs/view?name=medicine_calendar&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+                }
+            ]
+        },
+        {
+            "type": "view",
+            "name": "个人信息",
+            "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxedbf2255b424fd5e&redirect_uri=http://caring.healthy-link.cn/caring_wxrs/view?name=customer&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+        }
+    ]
+}

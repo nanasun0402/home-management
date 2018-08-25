@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <configuration >
+        <map-null>false</map-null>
+        <copy-by-references>
+            <copy-by-reference>com.caring.dao.model.Office</copy-by-reference>
+            <copy-by-reference>com.caring.dao.model.Hospital</copy-by-reference>
+            <copy-by-reference>com.caring.dao.model.Group</copy-by-reference>
+            <copy-by-reference>com.caring.dao.model.Role</copy-by-reference>
+            <copy-by-reference>com.caring.dao.model.Constant</copy-by-reference>
+            <copy-by-reference>com.caring.dao.model.Wechat</copy-by-reference>
+            <copy-by-reference>com.caring.dao.model.Customer</copy-by-reference>
+            <copy-by-reference>com.caring.dao.model.Doctor</copy-by-reference>
+            <copy-by-reference>com.caring.dao.model.Image</copy-by-reference>
+            <copy-by-reference>com.caring.dao.model.Audio</copy-by-reference>
+            <copy-by-reference>com.caring.dao.model.Question</copy-by-reference>
+            <copy-by-reference>com.caring.dao.model.Answer</copy-by-reference>
+            <copy-by-reference>java.util.List</copy-by-reference>
+        </copy-by-references>
+    </configuration>
+</mappings> 

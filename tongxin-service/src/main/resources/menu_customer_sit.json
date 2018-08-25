@@ -1,0 +1,41 @@
+{
+    "menu": {
+        "button": [
+            {
+                "type": "view",
+                "name": "随访问诊",
+                "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxae41e4705bf13faa&redirect_uri=http://sit.1xiangsui.com/wechat/user/home&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+            },
+            {
+                "type": "view",
+                "name": "便民服务",
+                "url": "http://www.1xiangsui.com/nanjing/daigou.htm"
+            },
+            {
+                "name": "我的",
+                "sub_button": [
+                    {
+                        "type": "view",
+                        "name": "上传病历",
+                        "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxae41e4705bf13faa&redirect_uri=http://sit.1xiangsui.com/wechat/history/list&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+                    },
+                    {
+                        "type": "view",
+                        "name": "添加随访表",
+                        "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxae41e4705bf13faa&redirect_uri=http://sit.1xiangsui.com/wechat/patient/self/followup&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+                    },
+                    {
+                        "type": "view",
+                        "name": "咨询记录",
+                        "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxae41e4705bf13faa&redirect_uri=http://sit.1xiangsui.com/wechat/inquiry/list&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+                    },
+                    {
+                        "type": "view",
+                        "name": "个人中心",
+                        "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxae41e4705bf13faa&redirect_uri=http://sit.1xiangsui.com/wechat/patient/home/profile&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+                    }
+                ]
+            }
+        ]
+    }
+}

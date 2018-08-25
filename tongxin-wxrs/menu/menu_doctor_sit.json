@@ -1,0 +1,21 @@
+{
+    "menu": {
+        "button": [
+            {
+                "type": "view",
+                "name": "我的主页",
+                "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxae41e4705bf13faa&redirect_uri=http://sit.1xiangsui.com/wechat/doctor/home/patients&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+            },
+            {
+                "type": "view",
+                "name": "咨询处理",
+                "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxae41e4705bf13faa&redirect_uri=http://sit.1xiangsui.com/wechat/inquiry/list&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+            },
+            {
+                "type": "view",
+                "name": "个人中心",
+                "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxae41e4705bf13faa&redirect_uri=http://sit.1xiangsui.com/wechat/doctor/profile&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+            }
+        ]
+    }
+}

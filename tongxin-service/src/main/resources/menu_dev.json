@@ -1,0 +1,39 @@
+{
+    "button": [
+        {
+            "name": "血压测量",
+            "sub_button": [
+                {	
+                    "type": "view",
+                    "name": "我的设备",
+                    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3dd727410590f6ad&redirect_uri=http://james.tunnel.qydev.com/caring_wxrs/view?name=bloodpressure_device&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+                },
+                {
+                    "type": "view",
+                    "name": "我的数据",
+                    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3dd727410590f6ad&redirect_uri=http://james.tunnel.qydev.com/caring_wxrs/view?name=bloodpressure_info&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+                }
+            ]
+        },
+        {
+            "name": "我的药箱",
+            "sub_button": [
+                {	
+                    "type": "view",
+                    "name": "我的药箱",
+                    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3dd727410590f6ad&redirect_uri=http://james.tunnel.qydev.com/caring_wxrs/view?name=medicinebox&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+                },
+                {
+                    "type": "view",
+                    "name": "服药日历",
+                    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3dd727410590f6ad&redirect_uri=http://james.tunnel.qydev.com/caring_wxrs/view?name=medicine_calendar&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+                }
+            ]
+        },
+        {
+            "type": "view",
+            "name": "个人信息",
+            "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3dd727410590f6ad&redirect_uri=http://james.tunnel.qydev.com/caring_wxrs/view?name=customer&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+        }
+    ]
+}

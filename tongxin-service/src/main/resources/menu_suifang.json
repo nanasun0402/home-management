@@ -1,0 +1,14 @@
+{
+    "button": [
+        {
+            "type": "view",
+            "name": "流程介绍",
+            "url": "http://mp.weixin.qq.com/s?__biz=MzI1MzEyNTUwNw==&mid=503418575&idx=1&sn=fe47f7d3e57e09a6f3c8eb0583a1dcea&chksm=722c1823455b91350813ebdb1a3bd8a3a23e6a41b6121b34a5194f76ef185779b8a0ada4692a#rd"
+        },
+        {
+            "type": "view",
+            "name": "注册加入随访",
+            "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebf36f7cd4566f45&redirect_uri=http://suifang.1xiangsui.com/wechat/user/home&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+        }
+    ]
+}

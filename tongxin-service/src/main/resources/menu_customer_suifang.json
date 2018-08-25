@@ -1,0 +1,36 @@
+{
+    "menu": {
+        "button": [
+            {
+                "type": "view",
+                "name": "随访问诊",
+                "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebf36f7cd4566f45&redirect_uri=http://suifang.1xiangsui.com/wechat/user/home&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+            },
+            {
+                "name": "我的",
+                "sub_button": [
+                    {
+                        "type": "view",
+                        "name": "上传病历",
+                        "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebf36f7cd4566f45&redirect_uri=http://suifang.1xiangsui.com/wechat/history/list&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+                    },
+                    {
+                        "type": "view",
+                        "name": "添加随访表",
+                        "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebf36f7cd4566f45&redirect_uri=http://suifang.1xiangsui.com/wechat/patient/self/followup&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+                    },
+                    {
+                        "type": "view",
+                        "name": "咨询记录",
+                        "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebf36f7cd4566f45&redirect_uri=http://suifang.1xiangsui.com/wechat/inquiry/list&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+                    },
+                    {
+                        "type": "view",
+                        "name": "个人中心",
+                        "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebf36f7cd4566f45&redirect_uri=http://suifang.1xiangsui.com/wechat/patient/home/profile&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+                    }
+                ]
+            }
+        ]
+    }
+}
